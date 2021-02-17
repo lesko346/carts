@@ -77,7 +77,7 @@ pipeline {
         }
       }
       steps {
-        echo "Waiting for the service to start..."
+        echo "Waiting for the service to start... Collin was here"
         container('kubectl') {
           script {
             def status = waitForDeployment (
